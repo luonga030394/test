@@ -1,0 +1,204 @@
+
+*{
+    box-sizing: border-box !important;
+}
+                                                     /*   dat dau thanh navbar */
+
+
+                                                     
+ .container-fluid{
+    width: 100%;
+    padding: 0px;
+}
+
+
+
+  .grid-container {
+     
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+   
+   
+    
+  }
+  
+  .grid-container > div {
+     
+   
+    text-align: center;
+   
+    
+  }
+ 
+  
+ 
+  
+
+.navbar{
+    padding: 0 !important;
+    float: right !important;
+}
+  .navbar-nav a{
+      
+      font-size: 13px;
+
+  }
+  .navbar-nav li a{
+      color:white !important;
+  }
+  .navbar-nav li a:hover{
+   color: rgb(243, 141, 8)!important;
+}
+  .navbar-nav{
+     padding-left: 20% !important;
+  }
+  .seach a{
+      float: left;
+      color: white;
+      padding-top: 15px;
+  }
+  .seach a i{
+      color: bisque !important;
+      font-size: 12px;
+      padding-top: 0px !important;
+  }
+  
+  .logo a{
+      padding-top: 9.5px;
+      color: white !important;
+      text-align: center !important;
+  }
+
+  
+ .logo{
+   
+     grid-row: 1;
+    grid-column: 1 / 7;
+    
+
+ }
+ .navbar{
+    grid-row: 1;
+     grid-column:7/  9;
+
+ }
+ .seach{
+    grid-row: 1;
+     grid-column: 9/ 10;
+
+ }
+
+
+                                          /*   ket thuc thanh navbar */
+ #ourbusiness{
+     margin-top: 50px !important;
+     text-align: center !important;
+    
+ }
+ #gachchan{
+     border: 1px solid blue;
+     width: 40px;
+     height: 2px;
+     margin: auto;
+     margin-top: 20px;
+ }
+ #tintuc{
+     margin-top: 50px;
+ }
+
+ .form-inline .form-control{
+    width: 30% !important;
+}
+
+#footer{
+    width: 100%;
+    background-color: black;
+    margin-top: 50px !important;
+}
+#footercon{
+    margin-top: 30px !important;
+}
+
+.kieudanhsach a{
+   text-decoration: none;
+   
+   
+   color: white;
+}
+.kieudanhsach{
+  
+   list-style: none;
+}
+.kieudanhsach a:hover{
+    color: rgb(241, 136, 16);
+
+}
+.kieudanhsach li i{
+  
+   color: white;
+}
+
+#cate{
+   margin-left: 15%;
+}
+#cach{
+   height: 2px;
+   width: 100%;
+   border: 1px solid white;
+
+}
+.input-group {
+   display: flex;
+   background-color: black;
+ box-shadow: 0 2px white;
+ border-radius: 5% !important;
+ border:0px;
+}
+.input-group .form-control{
+   color: red !important;
+   font-size: 8px !important;
+   background-color: black;
+ border: 0px black !important;
+   
+}
+.input-group .btn{
+  border-radius: 5% !important;
+  font-size: 8px !important;
+   
+   
+}
+
+
+
+#ketthuc {
+
+   margin: auto !important;
+   margin-top: 10px !important;
+   color: white !important;
+   text-align: center !important;
+   margin-top: 10px !important;
+   background-color: black;
+   width: 100% !important;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ @media screen and (max-width:992px) {
+     #anh1{
+         width: 100% !important;
+     }
+     #anh2{
+         width: 100% !important;
+     }
+     
+ }

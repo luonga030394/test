@@ -1,0 +1,350 @@
+ *{
+    box-sizing: border-box !important;
+    
+}
+
+
+ .container-fluid{
+    width: 100%;
+    padding: 0px;
+}
+
+
+
+  .grid-container {
+     
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+   
+   
+    
+  }
+  
+  .grid-container > div {
+     
+   
+    text-align: center;
+   
+    
+  }
+ 
+  
+ 
+  
+
+.navbar{
+    padding: 0 !important;
+    float: right !important;
+}
+  .navbar-nav a{
+      
+      font-size: 13px;
+
+  }
+  .navbar-nav li a{
+      color:white !important;
+  }
+  .navbar-nav li a:hover{
+   color: rgb(243, 141, 8)!important;
+}
+  .navbar-nav{
+     padding-left: 20% !important;
+  }
+  .seach a{
+      float: left;
+      color: white;
+      padding-top: 10px !important;
+  }
+  .seach a i{
+      color: white !important;
+      font-size: 12px;
+      padding-top: 0px !important;
+      
+  }
+  
+  .logo a{
+      padding-top: 9.5px;
+      color: white !important;
+      text-align: center !important;
+  }
+
+  
+ .logo{
+   
+     grid-row: 1;
+    grid-column: 1 / 7;
+    
+
+ }
+ .navbar{
+    grid-row: 1;
+     grid-column:7/  9;
+
+ }
+ .seach{
+    grid-row: 1;
+     grid-column: 9/ 10;
+
+ }
+
+ .container-fluid img{
+    width: 100%;
+    padding: 0px;
+}
+
+.indam{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+ #phan2{
+     margin-top: 50px !important;
+ }
+
+ .nhi{
+     border: 1px solid blue;
+    
+     width: 50px;
+     height: 2px;
+     margin-top: 10px;
+ }
+
+ #nen{
+     margin-top: 100px;
+ }
+
+#nentrai{
+  
+    
+    background-position: center;
+    background-size: cover;
+    
+    height: 40em;
+    background-repeat: no-repeat;
+  
+   background-image: url(../image/5AVVaKY.jpg);
+}
+
+#nenphai{ 
+  
+    background-position: center;
+    background-size: cover;
+    height: 40em;
+   
+    background-repeat: no-repeat;
+   
+   background-image: url(../image/Communication.jpg);
+}
+.sach {
+    width:10% !important;
+    height: 10% !important;
+    position: relative;
+    top: 13em;
+    left: -7% !important;
+    border: 100px;
+    border-radius: 50%;
+
+}
+.sach2{
+    position: relative;
+    width: 7% !important;
+    border: 100px;
+    top: 6em;
+    left:-16% !important;
+    border-radius: 50%;
+}
+
+
+ #business{
+     margin-top:10px !important;
+     margin-left: 8%;
+ }
+ .gachicon{
+     width: 50px;
+     height: 2px;
+     border: 1px solid white;
+     margin-top: 8px;
+
+    
+ }
+.our{
+    color: white;
+    font-size: 15px;
+    
+}
+#vanban{
+    margin-left: 7.5%;
+    
+}
+#vanban h1{
+    color: white;
+}
+#vanban p{
+    color: white;
+}
+
+#news{
+   
+    margin-top: 30px !important;
+    width: 60%;
+    margin: auto;
+}
+.channews{
+    border: 1px solid blue;
+    width: 40px;
+    height: 2px;
+    margin-top: 10px ;
+    margin-left: 4% !important;
+}
+#latest{
+    width: 60%;
+    margin: auto;
+    padding-left: 2% !important;
+}
+
+#mapss{
+    margin-top: 50px !important;
+}
+
+#gachngangchan{
+    width: 10%;
+    height: 2px;
+    border: 1px solid blue;
+    margin-top: 10px;
+}
+ 
+ .form-inline .form-control{
+     width: 30% !important;
+ }
+ 
+ #footer{
+     width: 100%;
+     background-color: black;
+     margin-top: 50px !important;
+ }
+ #footercon{
+     margin-top: 30px !important;
+ }
+
+ .kieudanhsach a{
+    text-decoration: none;
+    
+    
+    color: white;
+}
+.kieudanhsach a:hover{
+    color: rgb(241, 136, 16);
+
+}
+.kieudanhsach{
+   
+    list-style: none;
+}
+.kieudanhsach li i{
+   
+    color: white;
+}
+
+#cate{
+    margin-left: 15%;
+}
+#cach{
+    height: 2px;
+    width: 100%;
+    border: 1px solid white;
+
+}
+ .input-group {
+    display: flex;
+    background-color: black;
+  box-shadow: 0 2px white;
+  border-radius: 5% !important;
+  border:0px;
+}
+.input-group .form-control{
+    color: red !important;
+    font-size: 8px !important;
+    background-color: black;
+  border: 0px black !important;
+    
+}
+.input-group .btn{
+   border-radius: 5% !important;
+   font-size: 8px !important;
+    
+    
+}
+
+
+
+#ketthuc {
+
+    margin: auto !important;
+    margin-top: 10px !important;
+    color: white !important;
+    text-align: center !important;
+    margin-top: 10px !important;
+    background-color: black;
+    width: 100% !important;
+   
+}
+
+
+
+
+
+
+
+
+                                 /*                              Mobie                               */
+ @media screen and (max-width:576px){
+       
+ .logo{
+    grid-row: 1;
+    grid-column:2/ 9;
+
+ }
+ .navbar{
+    grid-row: 1;
+    grid-column:1/ 2;
+ }
+ .form-inline .form-control{
+     width: 100% !important;
+ }
+
+
+ 
+
+
+
+ }
+
+ @media screen and (max-width:768px) {
+
+    .sach {
+   
+        left: 0% !important;
+      
+    }
+    .sach2{
+       
+        
+        left:-9% !important;
+       
+    }
+    #business{
+       
+        margin-left: 12%;
+    }
+    #vanban{
+        margin-left: 12%;
+
+    }
+    
+     
+ }
+
+
+
+
+ 
